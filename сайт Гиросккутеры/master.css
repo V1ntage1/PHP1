@@ -1,0 +1,239 @@
+body{
+	margin: 0 auto;
+	width: 1920px;
+	background: #474747;
+}
+header{
+display:flex;
+justify-content: space-between;
+	background: linear-gradient(180deg, #8a2be2,#fff)
+}
+.logo-img{
+width:220px;
+height:120px;
+padding: 20px 20px;
+}
+.hor-menu ul li{
+list-style-type: none;
+float: left;
+padding: 10px 30px;
+color: black;
+}
+.hor-menu ul li a{
+color: #6f8ca7;
+text-decoration: none;
+padding: 50px 50px;
+}
+.content{
+max-width: 10px;
+min-width: 652px;
+padding: 20px;
+background: white;
+text-align:left;
+margin-right: auto;
+margin-left: auto;
+}
+.logo-title{
+color: black;
+font-size: 50px;
+font-weight: 300px
+}
+.hor-menu ul li a{
+color: black;
+text-decoration: none;
+padding: 10px 10px 15px 15px;
+margin: 20px 0;
+transition:all 0.5s;
+position: relative;
+font-size: 20px;
+}
+
+.hor-menu{
+display: flex;
+}
+.wh-png{
+width:100px;
+height:100px;
+}
+
+body{
+	height: 200px;
+	background: white;
+}
+.modal{
+color: white;
+}
+.table{
+color:white;
+margin: auto;
+float: right;
+margin-top: 60px;
+margin-right: 650px;
+}
+.samocatf-img{
+height: 100px;
+}
+.roma{
+	color:white;
+	text-align: center
+}
+.slide{
+color:black;
+padding: 100px;
+font-size: 14px;
+float: right;
+margin-right: 0px;
+height: 900px;
+height: 90px;
+}
+.InputBlock{
+	margin-right: -360px;
+}
+.onas{
+	color:black;
+	padding: 100px;
+}
+
+.topbutton{
+width: 70px;
+height: 70px;
+border: 2px solid #ccc;
+background: #f7f7f7;
+position: fixed;
+bottom: 50px;
+right: 50px;
+cursor: pointer;
+border-radius: 10px;
+}
+.carousel-wrapper {
+height: 200px;
+position: relative;
+width: 400px;
+margin: 50px auto;
+border: solid 2px;
+box-shadow: 0 0 5px;
+background-color: white;
+}
+.carousel-item {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 25px 50px;
+opacity: 0;
+transition: all 0.5s ease-in-out;
+margin: auto;
+background: white;
+}
+/* Слайд */
+.arrow {
+border: solid #040014;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 12px;
+}
+/* Предыдущий слайд */
+.arrow-prev {
+left: -30px;
+position: absolute;
+top: 50%;
+transform: translateY(-50%) rotate(135deg);
+color:white;
+}
+/* Следующий слайд */
+.arrow-next {
+right: -30px;
+position: absolute;
+top: 50%;
+transform: translateY(-50%) rotate(-45deg);
+}
+
+[id^="item"] {
+display: none;
+}
+.item-1 {
+z-index: 2;
+opacity: 1;
+}
+*:target ~ .item-1 {
+opacity: 0;
+}
+#item-1:target ~ .item-1 {
+opacity: 1;
+}
+#item-2:target ~ .item-2,
+#item-3:target ~ .item-3,
+#item-4:target ~ .item-4 {
+z-index: 4;
+opacity: 1;
+}
+.slider {
+font-size: 19px;
+}
+
+
+.goods-min-cart{
+	width: 25%;
+	background: white;
+	margin: 1%;
+	text-align: center;
+	border: solid 2px;
+	box-shadow: 0 0 7px;
+
+}
+.main{
+	background: f1f1f1;
+}
+.wrap{
+	max-width: 1500px;
+	margin: auto;
+}
+.goods-min-cart img{
+	max-width:90% ;
+
+}
+.goods-max-cart{
+	width: 25%;
+	background: white;
+	margin: -378px auto;
+	text-align: center;
+	padding: 1px;
+	height: 50%;
+	border: solid 2px;
+	box-shadow: 0 0 7px;
+
+}
+.goods-max-cart img{
+	max-width: 60%;
+}
+.goods-middle-cart{
+	display: flex;
+	width: 22%;
+	background: white;
+	text-align: center;
+	padding: 1px;
+	border: solid 2px;
+	box-shadow: 0 0 7px;
+	flex: -378px 90px -378px auto;
+	height: 365px;
+
+}
+.goods-middle-cart img{
+	max-width: 70%;
+}
+.ad-to-cart{
+
+}
+.goods-back-cart{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 23%;
+
+
+}
+.goods-back-cart img{
+	max-width: 58%;
+
+}
